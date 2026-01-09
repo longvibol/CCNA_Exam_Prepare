@@ -1,0 +1,174 @@
+1- help 
+
+>> ?
+
+
+Please define:
+
+Acceptance criteria for each major module
+
+UAT process and timeline
+
+Post-go-live support period
+
+SLA for system uptime and issue response
+
+
+>> click Enter ==> see one line 
+>> click Space ==> see one page 
+
+
+2- mode 
+
+if you see : Switch > (user mode)
+
+- Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.3.2, 
+
+- System image file is "flash:/cat3k_caa-universalk9.16.03.02.SPA.bin"
+
+This is hardive that it boot from 
+
+- Uptime for this control processor is 7 hours, 36 minutes 
+
+*** to go to prevalit or enable mode ==> command >> enable or en then Tap 
+** >> disable (to exit the enable mode) 
+
+2-2 global configuration mode 
+
+>>Switch#configure ?
+  terminal  Configure from the terminal
+  <cr>
+
+>>Switch#configure t
+
+Switch#configure terminal 
+
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#
+
+==> to end the mode : >> end
+
+Summary 
+
+1- enable mode #
+>> ena
+>> Switch#
+
+To exit >> Switch#disable 
+
+2- configuration global mode 
+>> Switch#configure t
+Switch#configure terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#
+
+To exit : end 
+
+-----------------------
+
+
+3- To exit from command :: exit 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

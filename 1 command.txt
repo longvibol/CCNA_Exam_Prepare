@@ -1,0 +1,2 @@
+1- winver : check window information (see operation system) 
+

@@ -1,0 +1,81 @@
+GE: For individual identifier.
+
+- ip : use for the remote network 
+- Mac : to allow communication in local network ( the Switch communication with the Mac address ) when it learn then it will keep the information. 
+
+
+
+==> Switch learn the mac address table : 
+
+- Switch use protocol : ARP (Address Resolution Protocol) 
+
+1- check the mac address clear: 
+
+>> arp -a 
+
+Interface: 10.172.8.168 --- 0x2
+  Internet Address      Physical Address      Type
+  10.172.8.1            00-00-5e-00-01-6c     dynamic
+  10.172.8.2            c4-cb-e1-98-85-3f     dynamic
+  10.172.8.3            c4-cb-e1-98-84-bf     dynamic
+
+2- To deleted 
+
+C:\Users\home>arp -d
+The ARP entry deletion failed: The requested operation requires elevation.
+
+==> we need to run as administrator 
+
+C:\Windows\system32>arp -d
+
+C:\Windows\system32>arp -a
+
+Interface: 10.172.8.168 --- 0x2
+  Internet Address      Physical Address      Type
+  10.172.8.1            00-00-5e-00-01-6c     dynamic
+  224.0.0.22            01-00-5e-00-00-16     static
+
+Interface: 192.168.16.1 --- 0xd
+  Internet Address      Physical Address      Type
+  224.0.0.22            01-00-5e-00-00-16     static
+
+Interface: 192.168.110.1 --- 0x1a
+  Internet Address      Physical Address      Type
+  224.0.0.22            01-00-5e-00-00-16     static
+
+
+=================
+
+Process :
+
+pc1=> វាប្រើ Brocase to the network then as who use this ip : 192.168.1.3 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
