@@ -1,0 +1,102 @@
+1- enable 
+
+>> end
+
+
+2- configure mode 
+
+Router#conf t
+
+3- Rename 
+
+#hostname R2
+
+4- Configure interface 
+
+R2(config)#interface gigabitEthernet 0/0/0
+
+
+5 - no shut down 
+
+R2(config-if)#no shutdown 
+
+6 - Setup Ip address 
+
+R2(config-if)#ip address 10.1.1.2 255.255.255.0
+
+
+7- leave from the configure mode 
+
+# end
+
+8- save configure 
+
+R2#wr
+Building configuration...
+[OK]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
